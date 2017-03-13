@@ -17,10 +17,10 @@ echo "=> install Homebrew"
 brew install caskroom/cask/brew-cask
 
 echo "=> update Homebrew"
-brew update && brew upgrade brew-cask && brew cleanup
+brew update && brew upgrade && brew cleanup
 
 echo "=> install brew formulas"
-brew install cmake git git-flow jenkins ldid nvm openssl openssl@1.1 python python3 tldr tree wget zsh-syntax-highlighting
+brew install cmake git git-flow jenkins ldid nvm openssl openssl@1.1 python python3 tldr tree wget zsh-syntax-highlighting java
 
 # 文件预览插件
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package cheatsheet
